@@ -1,0 +1,56 @@
+*background: #1d1f21
+*foreground: #c5c8c6
+*cursorColor: #c5c8c6
+
+*color0: #282a2e
+*color8: #373b41
+*color1: #a54242
+*color9: #cc6666
+*color2: #8c9440
+*color10: #b5bd68
+*color3: #de935f
+*color11: #f0c674
+*color4: #5f819d
+*color12: #81a2be
+*color5: #85678f
+*color13: #b294bb
+*color6: #5e8d87
+*color14: #8abeb7
+*color7: #707880
+*color15:                         #E8E8E8
+
+URxvt.font: xft:Source Code Pro:size=10.5
+URxvt.depth:                      32
+URxvt*scrollBar:                  false
+URxvt*mouseWheelScrollPage:       false
+URxvt*cursorBlink:                true
+URxvt*saveLines:                  5000
+URxvt*internalBorder: 5
+URxvt*geometry: 70x19
+
+rofi.color-enabled: true
+rofi.color-window: #282a2e, #b5bd68, #b5bd68
+rofi.color-normal: #282a2e, #c5c8c6, #8c9440, #c5c8c6, #78824B
+rofi.color-active: #282a2e, #c5c8c6, #8c9440, #c5c8c6, #78824B
+rofi.color-urgent: #282a2e, #c5c8c6, #8c9440, #c5c8c6, #78824B
+
+rofi.separator-style: solid
+rofi.sidebar-mode: false
+rofi.lines: 5
+rofi.font: Source Code Pro Semibold 10.5
+rofi.bw: 1
+rofi.columns: 2
+rofi.padding: 5
+rofi.fixed-num-lines: true
+rofi.hide-scrollbar: true
+
+Xft.dpi: 96
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+
+
