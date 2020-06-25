@@ -33,14 +33,15 @@ colors() {
 
 [ -r /usr/share/bash-completion/bash_completion ] && . /usr/share/bash-completion/bash_completion
 
-# Change the window title of X terminals
-case ${TERM} in
+#Change the window title of X terminals
+ case ${TERM} in
 	xterm*|rxvt*|Eterm*|aterm|kterm|gnome*|interix|konsole*)
 		PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/\~}\007"'
-		;;
+	;;
 	screen*)
 		PROMPT_COMMAND='echo -ne "\033_${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/\~}\033\\"'
 		;;
+ 
 esac
 
 use_color=true
@@ -145,3 +146,7 @@ export QT_AUTO_SCREEN_SCALE_FACTOR=1
 export GDK_SCALE=2
 export GDK_DPI_SCALE=0.5
 
+# Install Ruby Gems to ~/gems
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
+export PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"
