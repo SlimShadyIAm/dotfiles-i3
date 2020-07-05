@@ -1,9 +1,9 @@
 [global]
 monitor = 0
 follow = mouse
-geometry = "300x60-20+48"
+geometry = "450x60-20+48"
 indicate_hidden = yes
-shrink = no
+shrink = yes
 separator_height = 0
 padding = 32
 horizontal_padding = 32
@@ -21,7 +21,8 @@ ignore_newline = no
 stack_duplicates = false
 hide_duplicate_count = yes
 show_indicators = no
-icon_position = off
+icon_position = left
+max_icon_size = 125
 sticky_history = yes
 history_length = 20
 browser = /usr/bin/firefox -new-tab
@@ -39,16 +40,22 @@ context = ctrl+shift+period
 timeout = 4
 background = "#141c21"
 foreground = "#93a1a1"
-frame_color = "#8bc34a"
+frame_color = "#F48FB1"
 
 [urgency_normal]
 timeout = 8
 background = "#141c21"
 foreground = "#93a1a1"
-frame_color = "#ba68c8"
+frame_color = "#f4b78f"
+
 
 [urgency_critical]
 timeout = 0
 background = "#141c21"
 foreground = "#93a1a1"
-frame_color = "#ff7043"
+frame_color = "#f48f8f"
+
+[Spotify]
+    appname = Spotify
+    format = "<b>Now Playing</b>\n%s\n%b"
+    timeout = 10
