@@ -30,4 +30,5 @@ Dotfiles for my current i3 rice
 ![](screencaps/dunst.png)
 ![](screencaps/spotify.png)
 ![](screencaps/termite.png)
+![](screencaps/rofi.png)
 ![](screencaps/bar.png)
