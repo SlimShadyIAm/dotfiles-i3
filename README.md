@@ -18,6 +18,7 @@ Dotfiles for my current i3 rice
         * Siji (for glyphs, find it under `.config/polybar/fonts`)
 * **Notification daemon**: dunst
 * **dmenu**: rofi
+    * tweaked version of the [slate](https://github.com/davatorium/rofi-themes) theme (config in this repo)
 * **Spotify**: spicetify 
     * theme: [dribbblish](https://github.com/morpheusthewhite/spicetify-themes/tree/master/Dribbblish) (tweaked, find mine in this repo)
 * **desktop widget**: conky
