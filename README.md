@@ -29,6 +29,7 @@ Dotfiles for my current i3 rice
 ### More screenshots
 
 ![](screencaps/preview2.png)
+![](screencaps/preview3.png)
 ![](screencaps/greeter.png)
 ![](screencaps/vscode.png)
 ![](screencaps/dunst.png)
